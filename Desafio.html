@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuemSouEu</title>
+    <link href="./Desafio.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <div class="box1">
+        <!--A tag h1,h2,h3,h4,h5,h6 são tags de título tipo: <h1></h1> -->
+        <h1 id="titulo"> Olá, eu sou o Cleo </h1>
+        <h2 class="texto">Quem sou eu?</h2>
+        <!--<p></p> é uma tag de parágrafo-->
+        <p id="paragrafo"> Olá me chamo Cleo. Tenho 42 anos, nasci e cresci em Belém do Piauí, meu sonho
+            é ser um bom programador. Ajudar minha família e conseguir um bom emprego.
+            Também estou ansioso para poder trabalhar de casa e ter mais tempo com a minha
+            família. Quero dar meu máximo no CodClub para logo conseguir um emprego como programador.
+        </p>
+        <h3 class="texto">Minhas metas para esse ano:</h3>
+        <!--<ul></ul> é uma tag para listas desordenadas-->
+        <ul>
+            <li class="lista" id="lista">Ajudar minha família</li>
+            <li class="lista" id="lista">Conseguir um emprego</li>
+            <li class="lista" id="lista">Comprar o meu carro</li>
+            <li class="lista" id="lista">Ser Valorizado no meu novo emprego</li>
+            <li class="lista" id="lista">Amo tecnologia</li>
+            <li class="lista" id="lista">Minha mãe me obrigou</li>
+        </ul>
+        <!--<a href></a> é a tag de link, href é o endereço do link de onde vou linkar, o targent blank faz meu endereço abrir em uma nova aba sem sobreppor meu site-->
+        <a href="https://www.threads.net/@cleo_astro?xmt=AQGzivGxwrvpk7AbdYwyVsqQdQr7rwT9Vtevb5TBqBu2Omw"
+            target="_blank">Siga-me no instagran: @cleo_astro</a>
+
+        <h4 class="texto">Pessoas que eu gostaria que estivesse no DevClub</h4>
+
+        <ol>
+
+            <li class="lista" id="lista">Meu pai</li>
+            <li class="lista" id="lista">Meu Primo</li>
+            <li class="lista" id="lista">Minha filha</li>
+            <li class="lista" id="lista">Todo mundo</li>
+
+
+        </ol>
+
+        <figure>
+            <img src="../../../Foto CleoAstro.jpeg" alt="Foto de Cleo" width="300px" />
+            <figcaption>Foto de CleoAstro</figcaption>
+
+        </figure>
+
+        <label class="texto"> Despesas Mensais
+
+            <!--Tag Tabela Adiona tabela no site-->
+            <table id="tabela" border="4" cellpadding="10" bordercollor="gray">
+
+                <tr>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Fornecedor</th>
+                    <th>Data</th>
+
+                </tr>
+
+                <tr>
+                    <td>Internet</td>
+                    <td>R$ 80,00</td>
+                    <td>Ultralink</td>
+                    <td>30/03/2025</td>
+                </tr>
+
+                <tr>
+                    <td>Alimentação</td>
+                    <td>R$ 1.100,00</td>
+                    <td>Supermercado Mini Preço</td>
+                    <td>30/03/2025</td>
+                </tr>
+
+                <tr>
+                    <td>Água</td>
+                    <td>R$ 18,00</td>
+                    <td>Agespisa</td>
+                    <td>30/03/2025</td>
+                </tr>
+
+                <tr>
+                    <td>Luz</td>
+                    <td>R$ 95,00</td>
+                    <td>Equatorial</td>
+                    <td>30/03/2025</td>
+                </tr>
+            </table>
+        </label>
+        <br>
+        <!--Tag vídeo adiciona vídeo a página-->
+        <video controls autoplay controlList muted width="315" frameborder="5">
+            <source src="../../../Devclub/SKOGAFOSS  ICELAND 4K drone video.mp4">
+            <source src="../../../SKOGAFOSS  ICELAND 4K drone video.mp4">
+            <source src="../../../SKOGAFOSS  ICELAND 4K drone video.mkv">
+        </video> <br><br>
+
+        <iframe width="315" height="315"src="https://lp.devclub.com.br/devclub-oficial/">
+        </iframe>
+
+        <br><br>
+        <iframe width="315" height="315" src="https://www.youtube.com/embed/hXCjeEJHOio?si=f37acnZ68tAdX_yx"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br> <br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1745678224661!6m8!1m7!1sbSssMTvxSu6E3a1k7CN32w!2m2!1d-16.66366066339101!2d-49.24834565519908!3f162.02961588243892!4f3.308413541067864!5f0.4000000000000002"
+            width="315" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+
+
+        </iframe>
+        <br> <br>
+        <!--AQUI COMEÇAMOS A TRABALHAR FORMULÁRIOS-->
+        <!--o method é como eu vou enviar meus dados, por padrão vem get que significa um envio exposto-->
+        <form action="" method="get" enctype="multipart/form-data" class="form">
+            <!--action é o comando para enviar os dados-->
+            <label for="Rua">Rua:</label>
+            <!--enctype="multipart/form-data", Estou avisando que no meu formulário vai um arquivo -->
+            <input id="Rua" />
+
+            <input type="color">
+            <input type="range" min="100" max="500" value="200"> <br>
+
+            <Label for="password">Digite a Senha: </label>
+
+            <input type="password" id="senha" />
+
+
+
+
+            <Label for="email"> Digite seu email:
+                <input type="email" name="email" />
+            </label>
+
+            <label>
+                Você quer Molho extra ?
+                <input type="checkbox" />
+            </label>
+
+            <input type="file" multiple accept="image/*"> <!--Aceita todos os tipos de imagem-->
+            <!--multiple aceita carregar vários arquios de uma só vez-->
+            <input type="file" multiple accept=".pdf"> <!-- Só aceita um tipo de arquivo, neste caso pdf-->
+
+            CPF
+            <input type="number"> <!-- este input é do tipo númro, só aceita digitar número-->
+
+            <label> Data
+
+                <input type="date">
+            </label> <br>
+
+            <h3>Qual Sua rede Social favorita?</h3>
+
+            <label for="facebook">facebook</label>
+            <input type="radio" id="facebook" name="redes sociais" /> <br>
+
+            <label for="instagram">instagram</label>
+            <input type="radio" id="instagran" name="redes sociais" /><br>
+
+            <label for="YouTube">youtube</label>
+            <input type="radio" id="youtuber" name="redes sociais" /> <br>
+
+            <h4> Digite Seu endereço</h4>
+            <label>
+                Rua:
+                <input type="text" name="rua" autocomplete="street-address" />
+            </label>
+
+            <label>
+                Número:
+                <input type="number" name="numero">
+            </label>
+
+
+            <label>
+                email:
+                <input type="email" name="email">
+            </label>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar dados</button>
+        </form>
+
+    </div>
+</body>
+
+
+
+</html>
